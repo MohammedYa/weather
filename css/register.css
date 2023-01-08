@@ -1,0 +1,46 @@
+body{
+   
+}
+.registerbox{
+    height: 100vh;
+    background-color:rgb(57, 89, 89); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.register{
+    width: 55%;
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+   box-shadow: 0 0 10px rgb(72, 150, 180);
+}
+  
+.box{
+    margin: 15px 0px;
+    margin-top: 20px;
+    text-align: end;
+}
+.create{
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+    background-color: inherit;
+    border: transparent;
+    box-shadow: 0 0 10px rgb(23, 123, 76);
+    border-radius: 20px;
+    transition: all .05s;
+}
+.create:hover{
+    background-color: aqua;
+}
+.haveAcc{
+    text-decoration: none;
+    color:aqua!important;
+
+}
+#nametext,#emailtext,#passtext,#emailExist{
+    display:none ;
+    border-radius: 13px;
+}

@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar{
+    background-color: #1E202B;
+}
+.navbar-brand{
+    display: flex;
+}
+.logotext{
+    margin-left: 15px;
+}
+.logotext h3{
+   color:#fff;
+   font-size: 16px;
+
+}
+.logotext p{
+    color: #BFC1C8;
+    font-size: 14;
+    cursor: pointer;
+}
+.fa-bars{
+    color: #039FD9;
+}
+.nav-link{
+    color: #fff;
+    border: 1px solid #1E202B;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;
+}
+.nav-link:hover{
+    color: #039FD9;
+    border: 1px solid #039FD9 ;
+}
+.home{
+    padding-top:48px ;
+    background-image: url("../images/banner.png");
+   background-size: cover;
+   background-position: center center;
+   padding: 20px;
+}
+.home input{
+background-color: #1E202B!important;
+font-size: 18px;
+color: aqua!important;
+padding: 16px;
+border-radius: 25px;
+border: transparent;
+box-shadow: none!important;
+margin-bottom: 20px;
+}
+.todayItem{
+border-radius:15px;
+
+
+}
+
+.todayhead{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+   text-align: center;
+   padding: 10px 10px 0 10px ;
+    color: #BFC1C8;
+    background-color: #2D303D;
+}
+.todaybody{
+    background-color: #323544;
+   
+    padding: 20px;
+}
+.tempbody{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   color: #fff;
+}
+.city{
+    color:#BFC1C8;
+
+}
+.temp{
+    font-size: 5rem !important;
+}
+.statusToday,.statusTommorow{
+    color: #039FD9;
+    font-size: 17px;
+}
+.rain img,span{
+    margin-right: 5px;
+   width: 21px;
+   height: 21px;
+   color: #BFC1C8;
+
+}
+.tempfooter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tomorrow{
+ background-color: #262936;
+
+
+}
+.tommorowhead{
+
+    color: #BFC1C8;
+    display: flex;
+    font-weight: 400;
+    padding: 10px 10px 0 10px ;
+    background-color: #2D303D;
+}
+.tommorowbody{
+    text-align: center;
+    background-color: #262936;
+    padding:5px 10px;
+}
+.max{
+    color: #fff;
+}
+.min{
+    color: #BFC1C8;
+    
+}

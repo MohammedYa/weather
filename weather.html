@@ -1,0 +1,188 @@
+<html>
+<head>
+
+  <title>Weather</title>
+  <link rel="icon" href="images/icon.png" />
+  <meta charset="UTF-8" />
+  <meta name="author" content="Mohammed" />
+  <meta name="description" content="weather app" />
+  <meta name="keywords" content="html,css,js,ajax,weather" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <div class="navbar-brand m-3" href="#">
+        <div class="w-25">
+         <img  src="images/logo2x.png" class="w-100" alt="">
+
+        </div>
+        <div class="logotext">
+          <h3>Weather</h3>
+          <p>tagline goes here              </p>
+        </div>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars  fa-2x navbar-toggler-icon"></i>
+        
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item m-3">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item m-3">
+            <a class="nav-link " aria-current="page" href="#">News</a>
+          </li>
+          <li class="nav-item m-3">
+            <a class="nav-link " aria-current="page" href="#">Photo</a>
+          </li>
+          <li class="nav-item m-3">
+            <a class="nav-link " aria-current="page" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Start home section -->
+
+  <section class="home">
+
+    <div class="container">
+      <input type="text" id="search" class="form-control mt-5 w-100" placeholder="Search eny city "  >
+      <div class="row">
+
+        <!-- start today wheater  info  -->
+        <div class="col-md-4  ">
+
+          <div class="todayItem mt-5">
+
+            <div class="todayhead">
+              <p id="todayname">today</p>
+              <p id="todaynum">16semtmper</p>
+            </div>
+            <div class="todaybody">
+              <h4  id="city" class="city"></h4>
+              <div class="tempbody">
+                <h2 class="temp "> <span class="text-white" id="degree">22</span> <sup>  ْ </sup>C</h2>
+                <div class="w-50">
+                  <img id="todayIcon" class="w-100 todayicon" src="images/113.png" alt="">
+
+                </div>
+              </div>
+              
+              <p id="statustoday" class="statusToday"> sanny</p>
+              <div class=" tempfooter">
+                <span class="rain w-50">
+                  <img  src="images/icon-umberella@2x.png" class=""alt="">
+                  <span id="rain" class="raindeg">20 %</span>
+                </span>
+                <span class="rain w-50">
+                  <img  src="images/icon-compass@2x.png" class=""alt="">
+                  <span id="compass" class="compassdeg">20 %</span>
+                </span>
+                <span  class="rain w-50">
+                  <img  src="images/icon-wind@2x.png" class=""alt="">
+                  <span id="wind"class="winddeg">20 %</span>
+                </span>
+              </div>
+            </div>
+           
+
+          </div>
+        </div>
+
+        <!-- End today wheater  info  -->
+
+        <!-- start tomorrow wheater  info  -->
+
+        <div class="col-md-4 ">
+
+          <div class="tomorrow mt-5">
+
+            <div class="tommorowhead">
+              <p id="tomrrowName" class="text-center w-100">today</p>
+              
+            </div>
+            <div class="tommorowbody">
+             
+                  <img id="tomrrowIcon" class="tomrrowIcon my-4"id="" src="images/113.png" alt="">
+
+               
+                <h2 class="max "><span id="tomMaxDeg"class="text-white">22</span>  <sup>  ْ </sup>C</h2>
+                <h4  class="min "> <span id="tomMinDeg"> 22</span> <sup>  ْ </sup></h4>
+
+            
+              
+              <p id="statusTomrrow" class="statusTommorow my-5"> sanny</p>
+             
+            </div>
+           
+
+          </div>
+        </div>
+
+        <!-- End tomorrow  wheater  info  -->
+
+        <!-- start nextday wheater  info  -->
+
+        <div class="col-md-4 ">
+
+          <div class="tomorrow mt-5">
+
+            <div class="tommorowhead">
+              <p id="nextdayName" class="text-center w-100">today</p>
+              
+            </div>
+            <div class="tommorowbody">
+             
+                  <img id="nextdayIcon" class="tomrrowIcon my-4" src="images/113.png" alt="">
+
+               
+                <h2  class="max "><span id="nextMaxDeg"class="text-white"></span>  <sup>  ْ </sup>C</h2>
+                <h4  class="min "> <span id="nextMinDeg">22</span> <sup>  ْ </sup></h4>
+
+            
+              
+              <p id="statusNextday" class="statusTommorow my-5"> sanny</p>
+             
+            </div>
+           
+
+          </div>
+        </div>
+
+        <!-- End nextday  wheater  info  -->
+      </div>
+    </div>
+  </section>
+    
+  <!-- End home section -->
+
+
+<footer class="">
+  <div class="container">
+    <p class="text-center text-white mb-0">Copyright &copy; 2021 Designed by Mohammed. All rights reserved</p>
+    <div class="social-media text-white text-center mt-2">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-pinterest"></i>
+          <i class="fab fa-google-plus"></i>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

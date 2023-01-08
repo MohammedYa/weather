@@ -1,0 +1,17 @@
+/********* Start Footer *********/ 
+footer {
+    background-color: #323544;
+    padding: 10px 0;
+    
+   
+}
+
+footer i {
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+footer i:hover {color: #37aec3;}
+/********* End Footer *********/ 
